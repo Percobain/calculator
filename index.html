@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/fc01c3b169.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Calculator</h1>
+            <div class="mute">
+                <label for="muted"><span class="speaker"><i class="volume-up"></i></span></label>
+                <label class = "toggle">
+                    <input type="checkbox" id="muted" name="muted" />
+                    <span class="slider"></span>
+                </label>
+            </div>
+        </header>
+        <div class="container">
+            <div class="claculator-body">
+                <div class="screen-container">
+                    <div class="screen">0</div>
+                </div>
+                <div class="secondary-btns">
+                    <button class="delete" title="delete">←</button>
+                    <div class="too-long-popup">Too Long!</div>
+                    <button class="pi">π</button>
+                </div>
+                <div class="btns">
+                    <button class="percent" value="percent">%</button>
+                    <button class="sqrt" value="sqrt">&Sqrt;</button>
+                    <button class="clear" value="clear">c</button>
+                    <button class="all-clear" value="all-clear">ac</button>
+                    <button class="num-key" value="7">7</button>
+                    <button class="num-key" value="8">8</button>
+                    <button class="num-key" value="9">9</button>
+                    <button class="operator-key" value="/">&div;</button>
+                    <button class="num-key" value="4">4</button>
+                    <button class="num-key" value="5">5</button>
+                    <button class="num-key" value="6">6</button>
+                    <button class="operator-key" value="*">&times;</button>
+                    <button class="num-key" value="1">1</button>
+                    <button class="num-key" value="2">2</button>
+                    <button class="num-key" value="3">3</button>
+                    <button class="operator-key" value="-">&minus;</button>
+                    <button class="num-key" value="0">0</button>
+                    <button class="num-key decimal" value=".">.</button>
+                    <button class="equals" value="equals">=</button>
+                    <button class="operator-key" value="+">+</button>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <span>Copyright &copy; 2024 <a href="https://github.com/percobain" target="_blank" rel="noreferrer">Shreyans Tatiya</a>.</span>
+        </footer>
+    </div>
+</body>
+</html>
